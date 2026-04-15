@@ -23,7 +23,7 @@ Languages included (growing over time):
 - Python 🐍  
 - JavaScript ⚡  
 - Java ☕  
-- C++ 🔧  
+- C# 🔧  
 
 ---
 
@@ -36,7 +36,7 @@ rohit-code-vault/
 │   ├── python/
 │   ├── javascript/
 │   ├── java/
-│   └── cpp/
+│   └── c#/
 │
 ├── projects/
 │   ├── beginner/
