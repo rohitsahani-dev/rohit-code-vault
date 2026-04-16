@@ -1,6 +1,6 @@
 // Basic data types
 
-public class DataTypes_03 {
+public class _03_DataTypes {
     public static void main(String[] args) {
         int a = 10;
         double b = 3.14;

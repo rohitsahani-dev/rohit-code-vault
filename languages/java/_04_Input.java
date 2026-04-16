@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Input_04 {
+public class _04_Input {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,6 +12,4 @@ public class Input_04 {
         System.out.println("Hello " + name);
         scanner.close();
     }
-} 
-    
-
+}

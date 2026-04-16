@@ -1,6 +1,6 @@
 // Variables in Java
 
-public class Variables_02 {
+public class _02_Variables {
     public static void main(String[] args) {
         String name = "Rohit";
         int age = 20;
