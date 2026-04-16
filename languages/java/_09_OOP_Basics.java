@@ -12,12 +12,12 @@ class Student {
 
 public class _09_OOP_Basics {
     public static void main(String[] args) {
-        // An object is an instance of a class. 
-        // It is created using the new keyword followed by the class name and parentheses.
+// An object is an instance of a class. 
+// It is created using the new keyword followed by the class name and parentheses.
         Student s1 = new Student();
+        
         s1.name = "Rohit";
         s1.age = 20;
-
         s1.display();
     }
 }
