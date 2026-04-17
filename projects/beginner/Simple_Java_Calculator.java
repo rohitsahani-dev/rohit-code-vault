@@ -11,7 +11,7 @@ public class Simple_Java_Calculator{
 
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
-
+        
         System.out.println("Add: " + (a + b));
         System.out.println("Subtract: " + (a - b));
         System.out.println("Multiply: " + (a * b));
