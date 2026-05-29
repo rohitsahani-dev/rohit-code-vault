@@ -8,45 +8,13 @@
 <body>
     <p id="count" style="font-size:40px;">0</p>
     
-    <button onclick="increaseCount()">+</button>
-    <button onclick="decreaseCount()">-</button>
-    <button onclick="resetCount()">Reset</button> 
-    <button onclick="saveCount()">Save</button>
-    <button onclick="loadCount()">Load</button>
+    <button id="ibtn">+</button>
+    <button id="dbtn">-</button>
+    <button id="resetbtn">Reset</button> 
+    <button id="savebtn">Save</button>
+    <button id="loadbtn">Load</button>
 
-    <script>
-        let count = 0;
-
-        function updateCount(){
-            document.getElementById("count").innerHTML = count;
-        }
-
-        function increaseCount(){
-            count++;
-            updateCount();
-        }
-
-        function decreaseCount(){
-            count--;
-            updateCount();
-        }
-
-        function resetCount(){
-            count = 0;
-            updateCount();
-        }
-
-        function saveCount(){
-            localStorage.setItem("count", count);
-        }
-
-        function loadCount(){
-            let saved = localStorage.getItem("count");
-            if(saved !== null){
-                count = Number(saved);
-                updateCount();
-            }
-        }
-    </script>
+    <p id = "msgbtn"></p>
+    <script src="Counter.js"></script>
 </body>
-</html>   
+</html>         
